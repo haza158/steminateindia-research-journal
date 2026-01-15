@@ -118,6 +118,11 @@ section h2 {
 .paper-card a:hover {
   opacity: 0.9;
 }
+.paper-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  border-left-color: #ff7a2f;
+}
 
 footer {
   text-align: center;
